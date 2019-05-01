@@ -1,0 +1,10 @@
+$colors :(
+	french: #474bb5,
+	darkish: #8959f8,
+	grey:#f3faff,
+	aqua: #08fded,
+	);
+
+@function color ($colors-name) {
+	@return map-get($colors, $colors-name)
+}
