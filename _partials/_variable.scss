@@ -1,10 +1,54 @@
 $colors :(
 	french: #474bb5,
 	darkish: #8959f8,
-	grey:#f3faff,
-	aqua: #08fded,
+	text:#f3faff,
+    aqua: #08fded,
+    main: #03697c
 	);
 
 @function color ($colors-name) {
 	@return map-get($colors, $colors-name)
+}
+html {
+  font-size: 125%; 
+    font-family: 'Walter Turncoat', cursive;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+h1, h2, h3, h4, button{
+    font-family: 'Walter Turncoat', cursive;
+}
+nav, p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+h1{
+    font-size: 7.25rem;
+    color: color(text);
+}
+
+h2 {
+    font-size: 6.25rem;
+    line-height: 6.25rem;
+    
+}
+h3 {
+    font-size: 2.25rem;
+    line-height: 4.95rem;
+}
+h4 {
+    font-size: 2rem;
+    line-height: 2.9rem;
+    letter-spacing: 1.3px
+}
+nav {
+    line-height: 1.45rem;
+    color: color(text);
+    text-transform: capitalize;
+}
+p {
+    line-height: 1.4rem;
 }
