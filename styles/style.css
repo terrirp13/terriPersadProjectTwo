@@ -183,7 +183,7 @@ nav {
 p {
   line-height: 1.4rem; }
 
-h1, h2, h3, h4, p, a {
+h1, h2, h3, h4, p, a, ul, li {
   padding: 0;
   margin: 0; }
 
@@ -228,14 +228,21 @@ input[type="checkbox"] {
 
 .menu li {
   list-style: none;
-  padding: 0 30px; }
+  padding-right: 30px; }
   .menu li a {
     text-decoration: none;
     color: #f3faff; }
     .menu li a :hover {
       font-weight: 600; }
 
-.imgTitle {
-  width: calc; }
+header h1 {
+  position: absolute;
+  bottom: 20%; }
+
+header img {
+  position: absolute;
+  width: 40%;
+  right: 0;
+  top: 30%; }
 
 
