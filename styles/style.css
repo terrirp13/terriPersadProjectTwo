@@ -155,7 +155,7 @@ h1, h2, h3, h4, button {
 
 nav, p {
   font-family: 'Roboto', sans-serif;
-  font-size: 2rem;
+  font-size: 1rem;
   letter-spacing: 1px; }
 
 h1 {
@@ -173,7 +173,8 @@ h3 {
 h4 {
   font-size: 2rem;
   line-height: 2.9rem;
-  letter-spacing: 1.3px; }
+  letter-spacing: 1.3px;
+  color: #f3faff; }
 
 nav {
   line-height: 1.45rem;
@@ -181,9 +182,10 @@ nav {
   text-transform: capitalize; }
 
 p {
-  line-height: 1.4rem; }
+  line-height: 1.4rem;
+  color: #f3faff; }
 
-h1, h2, h3, h4, p, a, ul, li {
+h1, h2, h3, h4, p, a, ul, li i {
   padding: 0;
   margin: 0; }
 
@@ -244,5 +246,19 @@ header img {
   width: 40%;
   right: 0;
   top: 30%; }
+
+i {
+  color: #f3faff;
+  margin-right: 10px; }
+
+.infoContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: start;
+  align-self: flex-start; }
+
+.infoText {
+  margin: 0; }
 
 

@@ -13,8 +13,6 @@ html {
   font-size: 125%; 
     font-family: 'Walter Turncoat', cursive;
     font-family: 'Roboto', sans-serif;
-
-
 }
 
 h1, h2, h3, h4, button{
@@ -22,7 +20,7 @@ h1, h2, h3, h4, button{
 }
 nav, p {
     font-family: 'Roboto', sans-serif;
-    font-size: 2rem;
+    font-size: 1rem;
     letter-spacing: 1px;
 }
 h1{
@@ -42,7 +40,9 @@ h3 {
 h4 {
     font-size: 2rem;
     line-height: 2.9rem;
-    letter-spacing: 1.3px
+    letter-spacing: 1.3px;
+    color: color(text);
+
 }
 nav {
     line-height: 1.45rem;
@@ -51,4 +51,5 @@ nav {
 }
 p {
     line-height: 1.4rem;
+    color: color(text);
 }

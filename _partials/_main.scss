@@ -1,4 +1,4 @@
-h1, h2, h3, h4, p, a, ul, li {
+h1, h2, h3, h4, p, a, ul, li i {
     padding: 0;
     margin: 0;
 }
@@ -68,4 +68,8 @@ header img {
     right: 0;
     top: 30%;
 
+}
+i {
+    color: color(text);
+    margin-right: 10px;
 }
