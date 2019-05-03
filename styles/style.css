@@ -202,7 +202,7 @@ body {
   width: 80%;
   border: 1px solid red; }
 
-header {
+.mainHeader {
   background: url("../assets/home-header.jpg");
   background-position: center;
   background-size: cover;
@@ -250,6 +250,10 @@ header img {
   width: 40%;
   right: 0;
   top: 30%; }
+
+footer {
+  background-color: #044779;
+  text-align: center; }
 
 .infoContainer {
   display: -webkit-box;
@@ -364,5 +368,13 @@ i:before {
 
 .gallery {
   background-color: #474bb5; }
+
+.aboutHeader {
+  background: url("../assets/blog-header.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  position: relative; }
 
 
