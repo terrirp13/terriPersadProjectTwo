@@ -1,9 +1,37 @@
 .infoContainer {
     display: flex;
-    align-self: flex-start;
+    width: calc(100% /2 - 40px);
+    margin: 20px;
+}
+i {
+    padding: 10px;
+    color: color(text);
+    font-size: 30px;
+    align-self: baseline;
+}
+i:before {
+   border-radius: 50%;
+   display: block;
+   width: 50px;
+   height: 50px;
+    background: green;
+
 }
 .infoText {
-    margin: 0;
-    
-    
+    align-self: baseline;
+    padding-left: 10px;
+    position: relative;
 }
+.details {
+    background-color: color(french);
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 120px;
+    margin-bottom: 80px;
+
+}
+
+	

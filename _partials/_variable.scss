@@ -31,7 +31,6 @@ h1{
 h2 {
     font-size: 6.25rem;
     line-height: 6.25rem;
-    
 }
 h3 {
     font-size: 2.25rem;
@@ -42,7 +41,6 @@ h4 {
     line-height: 2.9rem;
     letter-spacing: 1.3px;
     color: color(text);
-
 }
 nav {
     line-height: 1.45rem;
@@ -52,4 +50,8 @@ nav {
 p {
     line-height: 1.4rem;
     color: color(text);
+}
+button {
+    background-color: color(aqua);
+    color: color(french);
 }
