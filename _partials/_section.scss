@@ -5,7 +5,7 @@
 }
 i {
     padding: 10px;
-    color: color(text);
+    color: color(french);
     font-size: 30px;
     align-self: baseline;
 }
@@ -14,16 +14,12 @@ i:before {
    display: block;
    width: 50px;
    height: 50px;
-    background: green;
-
+    background:color(aqua);
 }
 .infoText {
     align-self: baseline;
     padding-left: 10px;
     position: relative;
-}
-.details {
-    background-color: color(french);
 }
 
 .info {
@@ -31,7 +27,36 @@ i:before {
     flex-wrap: wrap;
     margin-top: 120px;
     margin-bottom: 80px;
-
+}
+.details {
+    background-color: color(french);
+    position: relative;
+    padding: 50px 0;
 }
 
-	
+// .left {
+//     display: flex;
+// }
+
+.leftImg {
+    position: absolute;
+    top: -60px;
+}
+
+.leftText {
+    margin-right: 10%;
+    padding-left: 50%;
+    
+}
+
+.rightText {
+    margin-left: 10%;
+    padding-right: 50%;
+    margin-top: 10%;
+    text-align: right;
+}
+.rightImg {
+    position: absolute;
+    bottom: -60px;
+    right: 0;
+}

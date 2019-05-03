@@ -260,7 +260,7 @@ header img {
 
 i {
   padding: 10px;
-  color: #f3faff;
+  color: #474bb5;
   font-size: 30px;
   -ms-flex-item-align: baseline;
   align-self: baseline; }
@@ -270,16 +270,13 @@ i:before {
   display: block;
   width: 50px;
   height: 50px;
-  background: green; }
+  background: #08fded; }
 
 .infoText {
   -ms-flex-item-align: baseline;
   align-self: baseline;
   padding-left: 10px;
   position: relative; }
-
-.details {
-  background-color: #474bb5; }
 
 .info {
   display: -webkit-box;
@@ -289,5 +286,29 @@ i:before {
   flex-wrap: wrap;
   margin-top: 120px;
   margin-bottom: 80px; }
+
+.details {
+  background-color: #474bb5;
+  position: relative;
+  padding: 50px 0; }
+
+.leftImg {
+  position: absolute;
+  top: -60px; }
+
+.leftText {
+  margin-right: 10%;
+  padding-left: 50%; }
+
+.rightText {
+  margin-left: 10%;
+  padding-right: 50%;
+  margin-top: 10%;
+  text-align: right; }
+
+.rightImg {
+  position: absolute;
+  bottom: -60px;
+  right: 0; }
 
 
