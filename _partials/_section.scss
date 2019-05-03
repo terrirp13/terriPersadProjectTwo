@@ -34,13 +34,11 @@ i:before {
     padding: 50px 0;
 }
 
-// .left {
-//     display: flex;
-// }
 
 .leftImg {
     position: absolute;
     top: -60px;
+    box-shadow: 10px 10px 0px 0px color(aqua);
 }
 
 .leftText {
@@ -59,4 +57,55 @@ i:before {
     position: absolute;
     bottom: -60px;
     right: 0;
+    box-shadow: -10px 10px 0px 0px color(aqua);
+}
+.leftText p, .rightText p {
+    padding: 20px 0;
+}
+
+.roadTrips {
+    text-align: center;
+    padding: 120px 60px;
+    button {
+        margin-top: 30px;
+    }
+}
+.roadTrips h4 {
+    padding-bottom: 20px; 
+}
+.beach {
+   background-image: url('../assets/banner.jpg') ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+.events {
+    display: flex;
+    padding: 60px 0; 
+    
+}
+.events img {
+    width: calc(30% - 20px);
+    margin-right: 20px;
+    box-shadow: 10px 10px 0px 0px color(aqua);
+    
+}
+.eventsText {
+    width: calc(70% - 50px);
+    margin-left: 50px;
+    p{
+        padding: 20px 0;
+    }
+}
+.pictures {
+    display: flex;
+     padding: 30px 0;
+}
+.pictures img {
+    width: calc(100% /3 - 40px);
+    margin: 20px;
+}
+.gallery {
+     background-color: color(french);
 }
