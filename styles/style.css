@@ -150,7 +150,7 @@ html {
   font-family: 'Walter Turncoat', cursive;
   font-family: 'Roboto', sans-serif; }
 
-h1, h2, h3, h4, button {
+h1, h2, h3, h4, button, aside h4 {
   font-family: 'Walter Turncoat', cursive; }
 
 nav, p {
@@ -187,7 +187,12 @@ p {
 
 button {
   background-color: #08fded;
-  color: #474bb5; }
+  color: #474bb5;
+  font-size: 1.25rem; }
+
+aside h4 {
+  font-size: 1.25rem;
+  color: #f3faff; }
 
 h1, h2, h3, h4, p, a, ul, li i {
   padding: 0;
@@ -245,7 +250,7 @@ header h1 {
   position: absolute;
   bottom: 20%; }
 
-header img {
+.mainSide {
   position: absolute;
   width: 40%;
   right: 0;
@@ -272,6 +277,7 @@ i {
 i:before {
   border-radius: 50%;
   display: block;
+  margin: 0 auto;
   width: 50px;
   height: 50px;
   background: #08fded; }
@@ -377,4 +383,15 @@ i:before {
   height: 80vh;
   position: relative; }
 
+.aboutHeader img {
+  position: absolute;
+  width: 60%;
+  right: 0;
+  top: 60%;
+  -webkit-box-shadow: -10px 10px 0px 0px color(aqua);
+  box-shadow: -10px 10px 0px 0px color(aqua); }
+
+.aboutHeader h2 {
+  position: absolute;
+  top: 20%; }
 

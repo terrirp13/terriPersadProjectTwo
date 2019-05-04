@@ -7,3 +7,18 @@
     height: 80vh;
      position: relative;
 }
+.aboutHeader img {
+    position: absolute;
+    width: 60%;
+    right: 0;
+    top: 60%;
+   box-shadow: -10px 10px 0px 0px color(aqua);
+}
+
+.aboutHeader h2 {
+    position: absolute;
+    top: 20%;
+}
+aside ul li {
+    list-style: disc;
+}

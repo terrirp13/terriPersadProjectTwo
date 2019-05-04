@@ -5,16 +5,17 @@
 }
 i {
     padding: 10px;
-    color: color(french);
+    color: $french;
     font-size: 30px;
     align-self: baseline;
 }
 i:before {
    border-radius: 50%;
    display: block;
+   margin: 0 auto;
    width: 50px;
    height: 50px;
-    background:color(aqua);
+    background:$aqua;
 }
 .infoText {
     align-self: baseline;
@@ -29,7 +30,7 @@ i:before {
     margin-bottom: 80px;
 }
 .details {
-    background-color: color(french);
+    background-color: $french;
     position: relative;
     padding: 50px 0;
 }
@@ -38,7 +39,7 @@ i:before {
 .leftImg {
     position: absolute;
     top: -60px;
-    box-shadow: 10px 10px 0px 0px color(aqua);
+    box-shadow: 10px 10px 0px 0px $aqua;
 }
 
 .leftText {
@@ -57,7 +58,7 @@ i:before {
     position: absolute;
     bottom: -60px;
     right: 0;
-    box-shadow: -10px 10px 0px 0px color(aqua);
+    box-shadow: -10px 10px 0px 0px $aqua;
 }
 .leftText p, .rightText p {
     padding: 20px 0;
@@ -88,7 +89,7 @@ i:before {
 .events img {
     width: calc(30% - 20px);
     margin-right: 20px;
-    box-shadow: 10px 10px 0px 0px color(aqua);
+    box-shadow: 10px 10px 0px 0px $aqua;
     
 }
 .eventsText {
@@ -107,5 +108,5 @@ i:before {
     margin: 20px;
 }
 .gallery {
-     background-color: color(french);
+     background-color: $french;
 }

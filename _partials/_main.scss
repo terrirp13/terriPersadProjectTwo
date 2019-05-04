@@ -3,7 +3,7 @@ h1, h2, h3, h4, p, a, ul, li i {
     margin: 0;
 }
 body {
-    background-color: color(main);
+    background-color: $main;
 }
 .wrapper {
     margin: 0 auto;
@@ -20,13 +20,9 @@ body {
     height: 80vh;
      position: relative;
 }
-// .hero {
-//     position: relative;
-// }
+
 nav {
 	display: flex;
-	// justify-content:space-between;
-	// margin-left: 40px;
 	padding-top: 5px; 
 }
 label[for="toggle"]{
@@ -42,15 +38,14 @@ input[type="checkbox"] {
 .menu {
     display: flex;
     margin-top: 30px;
-	// justify-content:center;
-	// align-items: center;
+	
 }
 .menu li {
 	list-style: none;
 	padding-right:30px;
      a {
         text-decoration: none;
-        color: color(text);
+        color: $text;
             :hover {
             font-weight: 600;
         }
@@ -59,10 +54,8 @@ input[type="checkbox"] {
  header h1 {
     position: absolute;
     bottom: 20%;
-    // left: 5px;
-
 }
-header img {
+.mainSide {
     position: absolute;
     width: 40%;
     right: 0;
@@ -70,7 +63,7 @@ header img {
 
 }
 footer {
-    background-color: color(darkish);
+    background-color: $darkish;
     text-align: center;
     
 }
