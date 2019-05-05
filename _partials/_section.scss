@@ -3,13 +3,13 @@
     width: calc(100% /2 - 40px);
     margin: 20px;
 }
-i {
+.infoContainer i {
     padding: 10px;
     color: $french;
     font-size: 30px;
     align-self: baseline;
 }
-i:before {
+.infoContainer i:before {
    border-radius: 50%;
    display: block;
    margin: 0 auto;

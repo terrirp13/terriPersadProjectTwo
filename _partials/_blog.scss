@@ -90,7 +90,7 @@ aside{
 input[type=text], input[type=email] {
     background: transparent;
     border: none;
-    width: 330px;
+    width: calc(50% - 50px);
     border-bottom: 1px solid $aqua;
 }
 input[type=text] {
@@ -104,19 +104,19 @@ input[type=text]::placeholder, input[type=email]::placeholder{
     padding-bottom: 20px;
 }
 form {
-    
+    width: 720px;
     margin-left: 43.5%;
 }
 textarea[id=comment] {
     margin-top: 20px;
     background: transparent;
-    width: 90%;
+    width: calc(100% - 50px);
     border: 1px solid $aqua;
     color: $text;
 }
-button{
+.formButton{
    margin: 20px 0 60px 0;
-    width: 90%;
+    width: calc(100% - 50px);
     height: 50px;
     border: none;
 }
