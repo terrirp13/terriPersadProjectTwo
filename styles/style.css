@@ -470,27 +470,73 @@ aside {
 input[type=text], input[type=email] {
   background: transparent;
   border: none;
-  width: 350px;
+  width: 330px;
   border-bottom: 1px solid #08fded; }
+
+input[type=text] {
+  margin-right: 50px; }
 
 input[type=text]::-webkit-input-placeholder, input[type=email]::-webkit-input-placeholder {
   color: #f3faff;
-  text-align: center; }
+  margin-bottom: 20px; }
 
 input[type=text]:-ms-input-placeholder, input[type=email]:-ms-input-placeholder {
   color: #f3faff;
-  text-align: center; }
+  margin-bottom: 20px; }
 
 input[type=text]::-ms-input-placeholder, input[type=email]::-ms-input-placeholder {
   color: #f3faff;
-  text-align: center; }
+  margin-bottom: 20px; }
 
 input[type=text]::placeholder, input[type=email]::placeholder {
   color: #f3faff;
-  text-align: center; }
+  margin-bottom: 20px; }
+
+.nameEmail {
+  padding-bottom: 20px; }
 
 form {
-  width: 61.4%;
   margin-left: 43.5%; }
+
+textarea[id=comment] {
+  margin-top: 20px;
+  background: transparent;
+  width: 90%;
+  border: 1px solid #08fded;
+  color: #f3faff; }
+
+button {
+  margin: 20px 0 60px 0;
+  width: 90%;
+  height: 50px;
+  border: none; }
+
+.contactHeader {
+  background: url("../assets/contact-header.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  position: relative; }
+
+.contactHeader h2 {
+  position: absolute;
+  top: 20%; }
+
+.formContainer {
+  background-color: #474bb5;
+  position: absolute;
+  margin-left: 40%;
+  padding: 30px 0 20px 60px;
+  top: 60%;
+  right: 40px;
+  -webkit-box-shadow: 20px 20px 0 0 #08fded;
+  box-shadow: 20px 20px 0 0 #08fded; }
+  .formContainer input[type=text], .formContainer input[type=email] {
+    width: 300px;
+    border-bottom: 1px solid #f3faff; }
+
+.formContainer textarea[id=comment] {
+  border: 1px solid #f3faff; }
 
 

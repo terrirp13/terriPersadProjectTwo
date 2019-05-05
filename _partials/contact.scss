@@ -1,0 +1,29 @@
+.contactHeader {
+     background: url('../assets/contact-header.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    position: relative;
+    
+}
+.contactHeader h2 {
+    position: absolute;
+    top: 20%;
+}
+.formContainer   {
+    background-color: $french;
+    position: absolute;
+    margin-left: 40%;
+    padding: 30px 0 20px 60px;
+    top: 60%;
+    right: 40px;
+    box-shadow: 20px 20px 0 0 $aqua;
+    input[type=text], input[type=email] {
+        width: 300px;
+        border-bottom: 1px solid $text;
+    }
+}
+.formContainer textarea[id=comment] {
+    border: 1px solid $text;
+}
