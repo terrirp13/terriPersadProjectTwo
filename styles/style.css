@@ -388,8 +388,8 @@ i:before {
   width: 60%;
   right: 0;
   top: 60%;
-  -webkit-box-shadow: -10px 10px 0px 0px #08fded;
-  box-shadow: -10px 10px 0px 0px #08fded; }
+  -webkit-box-shadow: -20px 30px 0px 0px #08fded;
+  box-shadow: -20px 30px 0px 0px #08fded; }
 
 .aboutHeader h2 {
   position: absolute;
@@ -404,22 +404,93 @@ i:before {
   justify-content: space-between; }
 
 article {
-  width: 60.7%;
-  margin-top: 330px;
-  padding: 0 80px;
+  width: 61.4%;
+  margin-top: 350px;
+  padding: 0 40px 0 10px;
   border: 1px solid #08fded;
   border-top: none;
   border-right: none; }
-  article p {
-    margin-bottom: 20px; }
+  article h4, article p {
+    margin-bottom: 20px;
+    text-align: justify; }
 
 aside {
   width: 35%;
-  margin-top: 330px; }
+  margin-top: 150px; }
   aside .content {
-    padding: 20px;
+    padding: 330px 20px 20px 20px;
     background: #474bb5; }
     aside .content ul {
       margin-left: 40px; }
+
+.post {
+  position: relative; }
+
+.post img {
+  position: absolute;
+  left: 0;
+  top: 5%;
+  width: 30%; }
+
+.comments {
+  width: 61.4%;
+  padding: 20px  80px;
+  margin-left: 38.6%; }
+
+.commentContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px 0; }
+  .commentContainer p span {
+    display: block;
+    font-weight: 700;
+    padding-bottom: 10px; }
+
+.commentContainer img {
+  padding-right: 20px;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -ms-flex-item-align: start;
+  align-self: flex-start; }
+
+.visuallyhidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden; }
+
+input[type=text], input[type=email] {
+  background: transparent;
+  border: none;
+  width: 350px;
+  border-bottom: 1px solid #08fded; }
+
+input[type=text]::-webkit-input-placeholder, input[type=email]::-webkit-input-placeholder {
+  color: #f3faff;
+  text-align: center; }
+
+input[type=text]:-ms-input-placeholder, input[type=email]:-ms-input-placeholder {
+  color: #f3faff;
+  text-align: center; }
+
+input[type=text]::-ms-input-placeholder, input[type=email]::-ms-input-placeholder {
+  color: #f3faff;
+  text-align: center; }
+
+input[type=text]::placeholder, input[type=email]::placeholder {
+  color: #f3faff;
+  text-align: center; }
+
+form {
+  width: 61.4%;
+  margin-left: 43.5%; }
 
 

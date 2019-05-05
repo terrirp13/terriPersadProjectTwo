@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>About terriPersadProject Two</title>
+    <title>Blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/style.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Walter+Turncoat" rel="stylesheet">
@@ -18,10 +18,10 @@
         <div class="wrapper">
         <h2>blog</h2>
         <input type="checkbox" id="toggle" name="toggle">
-    
+    <!-- linked "About" to index.html so that the link would not take you out of the site  -->
         <ul class="menu">
                 <li><a href="index.html">home</a></li>
-                <li><a href="about.html">about</a></li>
+                <li><a href="index.html">about</a></li>
                 <li><a href="blog.html">blog</a></li>
                 <li><a href="contact.html">contact us</a></li>
             </ul>
@@ -31,11 +31,11 @@
     <img src="./assets/blog-post-imag.jpg" alt="child playing with bubbles">
     </div>
 </div>
-
 </header>
 
 <main>
-<section>
+<section class="post">
+    <img src="./assets/blog-side-image.jpg" alt="box with large coloured chalk">
 <div class="activities">
 
     <aside>
@@ -76,8 +76,24 @@
 
 </div>
 </section>
-
-
+<section class="comments">
+    <h4>comments:</h4>
+    <div class="commentContainer">
+    <img src="./assets/comment-1.jpg" alt="picture icon of woman with pink hair">
+    
+    <p><span>Tuesday October 9th, 2019 by Mariana</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, veniam? Pariatur sed quia eaque nesciunt, similique et excepturi sit at ratione necessitatibus aspernatur laudantium assumenda dolore!</p>
+    </div>
+    <div class="commentContainer">
+        <img src="./assets/comment-2.jpg" alt="headshot of guy in green shirt">
+        <p><span>Wednesday October 10th, 2019 by Rob</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quidem nihil eos? Quod tempora  doloremque laborum officia unde nam, labore ut commodi quia voluptatibus iusto repudiandae!</p>
+    </div>
+</section>
+<form>
+<label for="name" class="visuallyhidden">Name</label>
+<input type="text" id="name" placeholder="Name">
+<label for="email" class="visuallyhidden">Email address</label>
+<input type="email" id="email" placeholder="Email address">
+</form>
 </main>
 
 
