@@ -204,8 +204,7 @@ body {
 .wrapper {
   margin: 0 auto;
   max-width: 1440px;
-  width: 80%;
-  border: 1px solid red; }
+  width: 80%; }
 
 .mainHeader {
   background: url("../assets/home-header.jpg");
@@ -243,8 +242,9 @@ input[type="checkbox"] {
   .menu li a {
     text-decoration: none;
     color: #f3faff; }
-    .menu li a :hover {
-      font-weight: 600; }
+    .menu li a:hover {
+      border-bottom: 2px solid #08fded;
+      padding-top: 15px; }
 
 header h1 {
   position: absolute;
@@ -388,10 +388,36 @@ i:before {
   width: 60%;
   right: 0;
   top: 60%;
-  -webkit-box-shadow: -10px 10px 0px 0px color(aqua);
-  box-shadow: -10px 10px 0px 0px color(aqua); }
+  -webkit-box-shadow: -10px 10px 0px 0px #08fded;
+  box-shadow: -10px 10px 0px 0px #08fded; }
 
 .aboutHeader h2 {
   position: absolute;
   top: 20%; }
+
+.activities {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+article {
+  width: 63.4%;
+  margin-top: 330px;
+  padding: 0 80px;
+  border: 1px solid #08fded; }
+  article p {
+    margin-bottom: 20px; }
+
+aside {
+  width: 35%;
+  margin-top: 330px; }
+  aside .content {
+    padding: 20px;
+    background: #474bb5; }
+    aside .content ul {
+      margin-left: 40px; }
+
 
