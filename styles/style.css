@@ -404,10 +404,12 @@ i:before {
   justify-content: space-between; }
 
 article {
-  width: 63.4%;
+  width: 60.7%;
   margin-top: 330px;
   padding: 0 80px;
-  border: 1px solid #08fded; }
+  border: 1px solid #08fded;
+  border-top: none;
+  border-right: none; }
   article p {
     margin-bottom: 20px; }
 
