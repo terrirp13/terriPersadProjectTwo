@@ -207,7 +207,8 @@ body {
 .wrapper {
   margin: 0 auto;
   max-width: 1440px;
-  width: 80%; }
+  width: 80%;
+  border: 1px solid red; }
 
 .mainHeader {
   background: url("../assets/home-header.jpg");
@@ -281,27 +282,31 @@ footer {
   display: -ms-flexbox;
   display: flex;
   width: calc(100% /2 - 40px);
-  margin: 20px; }
+  margin: 20px;
+  position: relative; }
 
-.infoContainer i {
-  padding: 10px;
-  color: #474bb5;
-  font-size: 30px;
-  -ms-flex-item-align: baseline;
-  align-self: baseline; }
-
-.infoContainer i:before {
+.icon {
   border-radius: 50%;
-  display: block;
-  margin: 0 auto;
-  width: 50px;
-  height: 50px;
-  background: #08fded; }
+  background-color: #08fded;
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  top: 18%; }
+  .icon i {
+    font-size: 35px;
+    position: absolute;
+    color: #474bb5;
+    left: 25%;
+    top: 18%; }
+
+.second i {
+  position: absolute;
+  left: 12%; }
 
 .infoText {
   -ms-flex-item-align: baseline;
   align-self: baseline;
-  padding-left: 10px;
+  padding-left: 90px;
   position: relative; }
 
 .info {
@@ -382,7 +387,7 @@ footer {
   padding: 30px 0; }
 
 .pictures img {
-  width: calc(100% /3);
+  width: calc(100% /3 - 40px);
   margin: 20px; }
 
 .gallery {
@@ -423,15 +428,15 @@ footer {
     flex-direction: column; }
 
   .infoContainer {
-    width: 100%; } }
-@media (max-width: 768px) {
+    width: 100%; }
+
   .gallery img:nth-child(3) {
     display: none; }
 
   .gallery img {
     width: calc(50% - 10px);
-    margin: 10px; }
-
+    margin: 10px; } }
+@media (max-width: 768px) {
   .events {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -567,7 +572,7 @@ input[type=text]::placeholder, input[type=email]::placeholder {
   padding-bottom: 20px; }
 
 form {
-  width: 720px;
+  width: 65%;
   margin-left: 43.5%; }
 
 textarea[id=comment] {
@@ -598,7 +603,7 @@ textarea[id=comment] {
 .formContainer {
   background-color: #474bb5;
   position: absolute;
-  padding: 30px 0 20px 60px;
+  padding: 60px 0 20px 60px;
   top: 60%;
   right: 40px;
   -webkit-box-shadow: 20px 20px 0 0 #08fded;
