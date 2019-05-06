@@ -44,6 +44,19 @@ aside{
         background: $french;
      ul {
         margin-left: 40px;
+        li {
+            list-style: none;
+            color: $text;
+        &::before {
+        content:'\2022';
+        padding-right: 20px;
+        font-size: 20px;
+        position: relative;
+        color: $aqua;
+        top: 0;
+
+        }
+     }
     }
   }  
 }

@@ -129,19 +129,20 @@ h3{
 
 @media (max-width: 980px) {
 .leftImg{
-    top: -15%;
+    top: -10%;
     width: 45%;
 }
 .rightImg{
     display: none;
 }
 .rightText {
-    position: absolute;
-    top: 20%;
-    text-align: left;
+ padding-top: 0; 
+ margin-top: 40px;
+ margin-right: 40px;
+ 
 }
 .leftText{
-    margin-top: 17px;
+    margin-top: 40px;
 }
 .details{
     padding-top: 20%;
@@ -153,12 +154,31 @@ h3{
 .infoContainer {
     width: 100%;
 }
+.events{
+    padding: 30px 0;
+}
+.events img {
+    display: none;
+}
  .gallery img:nth-child(3){
      display: none;
  }
  .gallery img {
-     width: calc(50% - 10px);
+     width: calc(50% - 20px);
      margin: 10px;
+ }
+ .events {
+     flex-direction: column;
+     position: relative;
+     .eventsText {
+         text-align: center;
+         width: 100%;
+     }
+ }
+ .events img {
+    position: absolute;
+    top: -50%;
+    left: 0;
  }
 }
 
@@ -173,8 +193,23 @@ h3{
  .eventsText{
      text-align: center;
  }
+ .textContainer{
+     flex-direction: column;
+ }
  .leftText, .rightText {
      width: 100%;
  }
+ .rightImg {
+     display: block;
+     bottom: -10%;
+     width: 45%;
+ }
+.pictures {
+    flex-direction: column;
+}
+.pictures img {
+    width: 100%;
+    margin: 0;
+}
 
 }
