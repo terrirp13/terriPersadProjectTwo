@@ -62,16 +62,22 @@ aside h4 {
     font-size: 1.25rem;
     color: $text;
 }
-.overlay {
-  display: block;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0,0,0,0.8);
+.skipLinks {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
+.skipLinks a {
+    position: absolute;
+    top: -2rem;
+    background-color: $aqua;
+    color: $french;
+    z-index: 999;
+}
+.skipLinks a:focus{
+    top: 0;
+}
+
 
 @media (max-width: 480px) {
     p {

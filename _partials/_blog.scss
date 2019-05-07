@@ -27,7 +27,7 @@
 article{
     width: 61.5%;
     // margin-top: 350px;
-    padding: 270px 40px 0 10px;
+    padding: 270px 10px 0 10px;
     border: 1px solid $aqua;
     border-top: none;
     border-right: none;
@@ -147,4 +147,45 @@ textarea[id=comment] {
         
     }
 }
-@media (max-width: 1270px){}
+@media (max-width: 1080px){
+    .activities{
+        flex-direction: column;
+    }
+    article {
+        width: 100%;
+        padding-top: 300px;
+        border: none;
+
+    }
+    aside{
+        width: 100%;
+         .content {
+        padding-top: 0px;
+        padding-left: 30%;
+        border: 1px solid $aqua;
+         }
+    }
+    .bubbles{
+        width: 50%;
+        top: 30%;
+        left: 50%;
+    }
+    .comments {
+       margin-left: 0;
+       width: 100%;
+    }
+    form {
+    width:100%;
+    margin: 0 auto;
+}
+    
+}
+@media (max-width: 900px) {
+    article {
+        padding-top: 10px;
+      
+    }
+    .bubbles{
+        display: none;
+    }
+}
