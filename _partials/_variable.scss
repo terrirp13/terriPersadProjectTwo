@@ -72,3 +72,19 @@ aside h4 {
   bottom: 0;
   background-color: rgba(0,0,0,0.8);
 }
+
+@media (max-width: 480px) {
+    p {
+        font-size: 1rem;
+    }
+    h2{
+        font-size: 3.2rem;
+        line-height: 3.25rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+    h4{
+        font-size: 1.5rem;
+    }
+}
