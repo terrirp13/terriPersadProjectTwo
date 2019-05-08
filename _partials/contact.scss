@@ -27,6 +27,11 @@
 }
 .formContainer textarea[id=comment] {
     border: 1px solid $text;
+    width: 98%;
+}
+.formButton{
+    width: 98%;
+
 }
 .social i {
     color: $text;
@@ -41,44 +46,66 @@
     }
 }
 @media (max-width: 1350px){
-    form{
+    .contactForm form{
         width: 50%;
     }
-    
 }
-
 @media (max-width: 1080px){
     .formContainer{
         padding:60px 20px 20px 20px;
-        top: 40%;
-        right: 20%;
+        top: 50%;
+        left: 20%;
         
     } 
-    .addressA {
-        display: none;
-    }
-    .addressB{
-        display: block;
-        position: absolute;
-        bottom: 0;
-        text-align: center;
-    }
     .contactInfo{
         width: 70%;
-        padding:120px 0 170px 0;
-        
+        padding:310px;
+        margin: 0;
         position: relative;
+            p:nth-child(2){
+        padding-top: 0px;
     }
-    .social{
+    }
+    .social {
+        width: 50%;
         position: absolute;
-        bottom: 30%;
-        left: 40%;
+        bottom: 20%;
+        padding-bottom: 30px;
+        left: 36%;
         
+    }
+     .addressA {
+        width: 50%;
+        position: absolute;
+        bottom: 10px;
+        left: 36%;
+     }
        
     }
 
-    @media (max-width: 800px){
-
+    @media (max-width: 900px){
+        .formContainer input[type=text], .formContainer input[type=email] {
+            width: calc(100% - 50px);
+        }
+        
     }
   
+@media (max-width: 700px){
+    .formContainer form  {
+        width: 80%;
     }
+    .social {
+        
+        top: 388px;
+        padding-top: 30px;
+        left: 36%;
+    }
+     .addressA {
+        bottom: 10px;
+        left: 36%;
+     }
+     .formContainer{
+        top: 35%;
+     }
+    
+}

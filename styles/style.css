@@ -229,8 +229,7 @@ body {
 .wrapper {
   margin: 0 auto;
   max-width: 1440px;
-  width: 80%;
-  border: 1px solid red; }
+  width: 80%; }
 
 nav {
   display: -webkit-box;
@@ -664,7 +663,7 @@ aside {
 input[type=text], input[type=email] {
   background: transparent;
   border: none;
-  width: calc(50% - 56px);
+  width: calc(50% - 40px);
   border-bottom: 1px solid #08fded; }
 
 input[type=text] {
@@ -696,13 +695,13 @@ form {
 textarea[id=comment] {
   margin-top: 20px;
   background: transparent;
-  width: calc(100% - 50px);
+  width: 100%;
   border: 1px solid #08fded;
   color: #f3faff; }
 
 .formButton {
   margin: 20px 0 60px 0;
-  width: calc(100% - 50px);
+  width: 100%;
   height: 50px;
   border: none; }
 
@@ -823,7 +822,11 @@ textarea[id=comment] {
   display: none; }
 
 .formContainer textarea[id=comment] {
-  border: 1px solid #f3faff; }
+  border: 1px solid #f3faff;
+  width: 98%; }
+
+.formButton {
+  width: 98%; }
 
 .social i {
   color: #f3faff;
@@ -837,31 +840,51 @@ textarea[id=comment] {
     padding-top: 30px; }
 
 @media (max-width: 1350px) {
-  form {
+  .contactForm form {
     width: 50%; } }
 @media (max-width: 1080px) {
   .formContainer {
     padding: 60px 20px 20px 20px;
-    top: 40%;
-    right: 20%; }
-
-  .addressA {
-    display: none; }
-
-  .addressB {
-    display: block;
-    position: absolute;
-    bottom: 0;
-    text-align: center; }
+    top: 50%;
+    left: 20%; }
 
   .contactInfo {
     width: 70%;
-    padding: 120px 0 170px 0;
+    padding: 310px;
+    margin: 0;
     position: relative; }
+    .contactInfo p:nth-child(2) {
+      padding-top: 0px; }
 
   .social {
+    width: 50%;
     position: absolute;
-    bottom: 30%;
-    left: 40%; } }
+    bottom: 20%;
+    padding-bottom: 30px;
+    left: 36%; }
+
+  .addressA {
+    width: 50%;
+    position: absolute;
+    bottom: 10px;
+    left: 36%; } }
+@media (max-width: 900px) {
+  .formContainer input[type=text], .formContainer input[type=email] {
+    width: calc(100% - 50px); } }
+@media (max-width: 700px) {
+  .formContainer form {
+    width: 80%; }
+
+  .social {
+    top: 388px;
+    padding-top: 30px;
+    left: 36%; }
+
+  .addressA {
+    bottom: 10px;
+    left: 36%; }
+
+  .formContainer {
+    top: 35%; } }
 
 
