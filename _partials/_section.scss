@@ -1,3 +1,23 @@
+.mainHeader {
+    background: url('../assets/home-header.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+     position: relative;
+}
+header h1 {
+    position: absolute;
+    bottom: 20%;
+}
+.mainSide {
+    position: absolute;
+    width: 40%;
+    right: 0;
+    top: 35%;
+}
+
+
 .infoContainer {
     display: flex;
     width: calc(100% /2 - 40px);
@@ -131,23 +151,49 @@
     margin-top: 40px;
 }
 }
+@media (max-width: 1300px){
 
+header h1 {
+      font-size: 6.25rem;
+  }
+}
 @media (max-width: 1150px) {
-.info {
+    .mainSide {
+    width: 35%;
+    top: 40%;
+    }
+    header h1 {
+      font-size: 5.8rem;
+  }
+  .info {
         margin-top: 20px;
     }
 .leftText p, .rightText p {
     font-size: .9rem;
 }
-h3{
-    font-size: 1.8rem;}
-.textContainer {
-    margin-top: 200px;
-    margin-bottom: 40px;
+ .events {
+     flex-direction: column;
+     position: relative;
+     .eventsText {
+         text-align: center;
+         width: 100%;
+     }
+ }
+ .events img {
+    position: absolute;
+    top: -50%;
+    left: 0;
+ }
+
 }
+@media (max-width: 980px) {
+     .mainSide {
+         display: none;
+     }
+     h3{
+    font-size: 1.8rem;
 }
 
-@media (max-width: 980px) {
 .textContainer {
     margin-top: 0;
     margin-bottom: 40px;
@@ -162,7 +208,7 @@ h3{
      width: 45%;
  }
 .leftImg{
-    top: -10%;
+    top: -5%;
     width: 45%;
 }
 
@@ -175,6 +221,7 @@ h3{
 }
 .infoContainer {
     width: 100%;
+    margin: 0;
 }
 .events{
     padding: 30px 0;
@@ -189,32 +236,9 @@ h3{
      width: calc(50% - 20px);
      margin: 10px;
  }
- .events {
-     flex-direction: column;
-     position: relative;
-     .eventsText {
-         text-align: center;
-         width: 100%;
-     }
- }
- .events img {
-    position: absolute;
-    top: -50%;
-    left: 0;
- }
 }
 
 @media (max-width: 790px) {
-
- .events {
-     flex-direction: column;
- }
- .eventsText, .events img {
-     width: 100%;
- }
- .eventsText{
-     text-align: center;
- }
  
 .pictures {
     flex-direction: column;
@@ -231,12 +255,25 @@ h3{
 .infoText{
     margin-left: 50px;
 }
+.leftImg, .rightImg{
+    width: 65%;
+}
 .icon{
     width: 35px;
     height: 35px;
     i {
         font-size: 20px;
     }
-
+    .infoText p{
+        text-align: justify;
+    }
 }
+header h1{
+        font-size: 3.4rem;
+    }
+}
+@media (max-width: 350px){
+    header h1{
+        font-size: 2.8rem;
+    }
 }

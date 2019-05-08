@@ -22,6 +22,9 @@
         border-bottom: 1px solid $text;
     }
 }
+.addressB{
+    display: none;
+}
 .formContainer textarea[id=comment] {
     border: 1px solid $text;
 }
@@ -37,3 +40,45 @@
         padding-top: 30px;
     }
 }
+@media (max-width: 1350px){
+    form{
+        width: 50%;
+    }
+    
+}
+
+@media (max-width: 1080px){
+    .formContainer{
+        padding:60px 20px 20px 20px;
+        top: 40%;
+        right: 20%;
+        
+    } 
+    .addressA {
+        display: none;
+    }
+    .addressB{
+        display: block;
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+    }
+    .contactInfo{
+        width: 70%;
+        padding:120px 0 170px 0;
+        
+        position: relative;
+    }
+    .social{
+        position: absolute;
+        bottom: 30%;
+        left: 40%;
+        
+       
+    }
+
+    @media (max-width: 800px){
+
+    }
+  
+    }

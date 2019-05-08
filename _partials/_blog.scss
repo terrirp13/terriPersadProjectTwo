@@ -104,7 +104,7 @@ aside{
 input[type=text], input[type=email] {
     background: transparent;
     border: none;
-    width: calc(50% - 50px);
+    width: calc(50% - 56px);
     border-bottom: 1px solid $aqua;
 }
 input[type=text] {
@@ -153,7 +153,7 @@ textarea[id=comment] {
     }
     article {
         width: 100%;
-        padding-top: 300px;
+        padding-top: 270px;
         border: none;
 
     }
@@ -167,7 +167,7 @@ textarea[id=comment] {
     }
     .bubbles{
         width: 50%;
-        top: 30%;
+        top: 35%;
         left: 50%;
     }
     .comments {
@@ -176,16 +176,65 @@ textarea[id=comment] {
     }
     form {
     width:100%;
-    margin: 0 auto;
+    margin: 0 ;
 }
-    
+textarea[id=comment] {
+    width: 100%;
 }
-@media (max-width: 900px) {
+    .formButton{
+        width: 100%;
+    }
+    input[type=text], input[type=email] {
+        width: calc(50% - 30px);
+        margin: 10px;
+    }
+}
+@media (max-width: 930px) {
     article {
         padding-top: 10px;
       
     }
     .bubbles{
+        top: -25%;
+    }
+}
+@media (max-width: 730px) {
+     .bubbles{
+        top: -15%;
+    }
+}
+@media (max-width: 600px) {
+    .bubbles{
+        top: -10%;
+    }
+    .blogSide {
         display: none;
+    }
+    aside .content {
+        padding-left: 10px;
+    }
+}
+@media (max-width: 480px) {
+    .bubbles{
+        bottom: 0;
+        right: 75%;;
+    }
+    input[type=text], input[type=email] {
+        width: calc(100% - 20px);
+        margin: 10px;
+    }
+    .commentContainer {
+        flex-direction: column;
+        img {
+            margin: 0 auto;
+        }
+    }
+    aside p, aside li {
+        font-size: .6rem;
+    }
+}
+@media (max-width:450px) {
+    .bubbles{
+       display: none;
     }
 }
